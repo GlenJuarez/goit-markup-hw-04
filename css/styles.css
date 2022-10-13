@@ -204,6 +204,44 @@ h4 {
   justify-content: space-between;
 }
 
+.service{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 370px;
+  height: 294px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color:#FFFFFF;
+}
+
+  .service:nth-child(1) {
+    background-image: url('../images/img1.jpg');
+}
+
+.service:nth-child(2) {
+    background-image: url('.././images/img2.jpg');
+}
+
+.service:nth-child(3) {
+    background-image: url('.././images/img3.jpg');
+}
+
+.service>h3 {
+  display: flex;
+  width: 370px;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0%;
+ 
+
+  
+}
+
+
 .coach {
   background-color: #f5f4fa;
   padding-top: 94px;
