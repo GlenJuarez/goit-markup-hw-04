@@ -148,15 +148,34 @@ li {
   align-items: flex-start;
   justify-content: space-between;
   text-align: left;
+  
 }
+
+
 
 .information > article {
   width: 270px;
 }
 
+
 .information > article:not(:last-child) {
   margin-right: 30px;
 }
+
+
+.iconns {
+  background-color: #F5F4FA;
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.iconantena{
+  padding: 25px 102px;
+}
+
+
 
 h3 {
   font-family: "Roboto", sans-serif;
@@ -447,11 +466,3 @@ a:hover {
 
 
 
-.iconantena
- {
-    box-sizing: content-box;
-    padding: 25px 100px;
-    background-color: #F5F4FA;
-    border-radius: 4px;
-    margin-bottom: 30px;
-}
