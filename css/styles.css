@@ -444,6 +444,14 @@ a:hover {
   padding-top: 94px
 };
 
-.iconsobre{
-  fill: #2196f3;
+
+
+
+.iconantena
+ {
+    box-sizing: content-box;
+    padding: 25px 100px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
 }
