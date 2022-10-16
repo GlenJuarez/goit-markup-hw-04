@@ -102,15 +102,66 @@ li {
   color: #757575;
 }
 
+.info-contact {
+  display: inline-flex;
+  align-items: center;
+}
+
+.iconSobre,
+.iconPhone {
+  margin-right: 10px;
+  fill: #757575;
+}
+
+.info-contact:hover *,
+.info-contact:focus * {
+  color: #2196f3;
+  fill: #2196f3;
+}
+
+.iconAntena,
+.iconReloj,
+.iconPc,
+.iconAstronauta {
+  box-sizing: content-box;
+  padding: 25px 100px;
+}
+
+.coach-icons{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 16px;
+  margin-bottom: 30px;
+}
+
+.icon-net{
+  border-radius: 50%;
+    background-color: #FFFFFF;
+    fill: #AFB1B8;
+    cursor: pointer;
+}
+
+.icon-net:hover,
+.icon-net:focus {
+    background-color: #2196F3;
+    fill: #FFFFFF;
+}
+
+
 .initial {
   text-align: center;
   background-color: #2f303a;
   padding-top: 200px;
   padding-bottom: 200px;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('.././images/banner.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(".././images/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .solutions {
   font-family: "Roboto", sans-serif;
@@ -148,34 +199,27 @@ li {
   align-items: flex-start;
   justify-content: space-between;
   text-align: left;
-  
 }
-
-
 
 .information > article {
   width: 270px;
 }
 
-
 .information > article:not(:last-child) {
   margin-right: 30px;
 }
 
-
 .iconns {
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   width: 270px;
   height: 120px;
   border-radius: 4px;
   margin-bottom: 30px;
 }
 
-.iconantena{
+.iconantena {
   padding: 25px 102px;
 }
-
-
 
 h3 {
   font-family: "Roboto", sans-serif;
@@ -223,7 +267,7 @@ h4 {
   justify-content: space-between;
 }
 
-.service{
+.service {
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -232,22 +276,22 @@ h4 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  color:#FFFFFF;
+  color: #ffffff;
 }
 
-  .service:nth-child(1) {
-    background-image: url('../images/img1.jpg');
+.service:nth-child(1) {
+  background-image: url("../images/img1.jpg");
 }
 
 .service:nth-child(2) {
-    background-image: url('.././images/img2.jpg');
+  background-image: url(".././images/img2.jpg");
 }
 
 .service:nth-child(3) {
-    background-image: url('.././images/img3.jpg');
+  background-image: url(".././images/img3.jpg");
 }
 
-.service>h3 {
+.service > h3 {
   display: flex;
   width: 370px;
   height: 70px;
@@ -255,11 +299,7 @@ h4 {
   justify-content: center;
   align-items: center;
   margin-bottom: 0%;
- 
-
-  
 }
-
 
 .coach {
   background-color: #f5f4fa;
@@ -276,13 +316,23 @@ h4 {
 .the-coach {
   background-color: #ffffff;
   width: 270px;
-  height: 368px;
+  height: 428px;
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12);
   border-radius: 0px 0px 4px 4px;
   padding-bottom: 30px;
 }
 
+figure{
+  margin-left:0%;
+  margin-top: 0%;
+
+}
+
+.icon-net{
+  display: flex;
+  justify-content:space-around;
+}
 .description {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -301,6 +351,37 @@ h4 {
   letter-spacing: 0.03em;
   text-align: center;
 }
+
+
+.clients{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 151px;
+}
+
+.client-regular{
+  box-sizing: content-box;
+    padding: 14.09px 32px;
+    outline: 1px solid #AFB1B8;
+    border-radius: 4px;
+    fill: #AFB1B8;
+    cursor: pointer;
+    
+}
+
+.client-regular:hover,
+.client-regular:focus {
+    outline: 1px solid #2196f3;
+    fill: #2196f3;
+}
+
+
+.tclient{
+  padding-top: 59px;
+  padding-bottom: 44.02px;
+}
+
+
 
 footer {
   background-color: #2f303a;
@@ -458,11 +539,48 @@ a:hover {
   color: #212121;
 }
 
-.section{
+.section {
   padding-bottom: 94px;
-  padding-top: 94px
-};
+  padding-top: 94px;
+}
 
 
+.foot-net{
+  display: flex;
+  flex-direction: column;
+}
 
 
+h3{
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.foot-icons{
+
+  display: inline-flex;
+  justify-content: flex-start;
+  height: 44px;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.icon-foot>.icon-net{
+  fill: #FFFFFF;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.icon-foot>.icon-net:hover{
+  background-color: #2196f3;;
+}
+
+footer>.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  gap: 70px;
