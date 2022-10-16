@@ -561,6 +561,17 @@ h3{
     color: #FFFFFF;
 }
 
+.icontitle{
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color:     #212121;
+
+}
+
 .foot-icons{
 
   display: inline-flex;
